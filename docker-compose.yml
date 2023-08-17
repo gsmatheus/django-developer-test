@@ -1,0 +1,34 @@
+version: '3'
+services:
+  backend:
+    container_name: backend
+    build:
+      context: ./backend
+    ports:
+      - "8000:8000"
+    # command: python manage.py runserver 0.0.0.0:8000
+    # depends_on:
+    #   - db
+  frontend:
+    container_name: frontend
+    build:
+      context: ./frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+#   db:
+#     image: mysql:latest
+#     restart: always
+#     container_name: db_mysql
+#     environment:
+#       MYSQL_ROOT_PASSWORD: yourpassword
+#       MYSQL_DATABASE: django
+#       MYSQL_USER: youruser
+#       MYSQL_PASSWORD: yourpassword
+#     volumes:
+#       - mysql_data:/var/lib/mysql
+
+# volumes:
+#   mysql_data:
+#     driver: local
