@@ -12,7 +12,7 @@ Este projeto é um sistema de gerenciamento de veículos e motoristas que utiliz
 
 ## Instruções para Instalação e Execução 
 
-### Configuração do Banco de Dados
+### Configuração do Banco de Dados 
 
 O sistema utiliza o banco de dados **SQLite** como padrão, especialmente para ambientes de desenvolvimento. No entanto, é importante observar que o uso do **SQLite** é mais adequado para cenários de desenvolvimento e testes devido às suas características de armazenamento local. Para ambientes de produção ou aplicações em escala, é altamente recomendável considerar a migração para bancos de dados mais robustos, como **MySQL** ou **PostgreSQL**, de acordo com suas necessidades e requisitos de desempenho.
 
