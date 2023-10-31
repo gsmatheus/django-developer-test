@@ -2,7 +2,7 @@
 
 Este projeto é um sistema de gerenciamento de veículos e motoristas que utiliza o framework Django em Python. O sistema oferece funcionalidades para manter registros e acompanhar as atividades relacionadas aos veículos e motoristas, incluindo suas movimentações.
 
-## Funcionalidades Principais
+## Funcionalidades Principais 
 
 - **Cadastro de Veículos:** Registre informações detalhadas sobre os veículos, como placa, marca, modelo e quilometragem para manutenção.
 
