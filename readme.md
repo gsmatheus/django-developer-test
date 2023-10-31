@@ -4,7 +4,7 @@ Este projeto é um sistema de gerenciamento de veículos e motoristas que utiliz
 
 ## Funcionalidades Principais
 
-- **Cadastro de Veículos:** Registre informações detalhadas sobre os veículos, como placa, marca, modelo e quilometragem para manutenção.
+- **Cadastro de Veículos:** Registre informações detalhadas sobre os veículos, como placa, marca, modelo e quilometragem para manutenção. 
 
 - **Cadastro de Motoristas:** Mantenha um cadastro organizado de motoristas, incluindo detalhes como nome, telefone e número da CNH.
 
