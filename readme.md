@@ -2,7 +2,7 @@
 
 Este projeto é um sistema de gerenciamento de veículos e motoristas que utiliza o framework Django em Python. O sistema oferece funcionalidades para manter registros e acompanhar as atividades relacionadas aos veículos e motoristas, incluindo suas movimentações.
 
-## Funcionalidades Principais
+## Funcionalidades Principais 
 
 - **Cadastro de Veículos:** Registre informações detalhadas sobre os veículos, como placa, marca, modelo e quilometragem para manutenção.
 
@@ -10,9 +10,9 @@ Este projeto é um sistema de gerenciamento de veículos e motoristas que utiliz
 
 - **Controle de Movimentações de Veículos:** Registre as movimentações dos veículos de maneira eficiente, capturando informações como data e horário de partida, destino, data e horário de retorno, quilometragem no início e final da viagem, além dos quilômetros percorridos.
 
-## Instruções para Instalação e Execução
+## Instruções para Instalação e Execução  
 
-### Configuração do Banco de Dados
+### Configuração do Banco de Dados 
 
 O sistema utiliza o banco de dados **SQLite** como padrão, especialmente para ambientes de desenvolvimento. No entanto, é importante observar que o uso do **SQLite** é mais adequado para cenários de desenvolvimento e testes devido às suas características de armazenamento local. Para ambientes de produção ou aplicações em escala, é altamente recomendável considerar a migração para bancos de dados mais robustos, como **MySQL** ou **PostgreSQL**, de acordo com suas necessidades e requisitos de desempenho.
 
