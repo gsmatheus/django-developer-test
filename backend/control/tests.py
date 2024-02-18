@@ -95,7 +95,7 @@ class ControlTestCase(TestCase):
         created_control = self.client.post('/api/control/create', self.data, format='json')
 
         response = self.client.get(
-            f'/api/control/{created_control.data["control"]["vehicle"]}/total_km',
+            f'/api/control/{created_control.data["control"]["vehicle"]["id"]}/total_km',
             format='json'
         )
 
